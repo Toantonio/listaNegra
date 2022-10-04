@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Iista_negra/CSS/style.css">
+    <link rel="stylesheet" href="">
+    <title>Bleck list</title>
+</head>
+
+<body>
+<section class=" container">
+    
+   
+    <div class="row mt-4">
+        <div class="col-12 col-md-6">
+          
+            <h2>Adicionar Divida</h2>
+
+            <form class="row">
+             
+            <div class="">
+                <label for="produto">Cliente</label>
+                <input type="text"class="form-control" id="nome"placeholder="nome do cliente">
+            </div>
+             
+             <div class="row m-3">
+                <div class="col-4">
+                    <label for="produto">Produto</label>
+                    <input type="text"class="form-control"id="prod" >
+                </div>
+                <div class="col-4">
+                    <label for="data">Data</label>
+                    <input type="text" id="data" class="form-control" >
+                </div>
+                <div class="col-4 ">
+                    <label for="valor">Valor</label>
+                     <input type="text" id="valor"class="form-control" >
+                </div>
+             </div>
+                <span id="add_pro"></span>
+            </form>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-4">
+                    <button class="col-12"type="button" id="" onclick="">Novo</button>
+                   
+                </div>
+                <div class="col-4"><button class="col-12" type="button" id="salve" onclick="">Salvar</button></div>
+                <div class="col"></div>
+
+
+                <div class="col-3"></div>
+                <div class="col-6 m-3"> 
+                    <button class="col-12" type="button" id="" onclick="">Adicionar novo produto</button>
+                </div>
+                <div class="col-3"></div>
+              
+                
+                
+            </div>
+          <div class="">
+            <span class="" id="total">Total: </span>
+          </div>
+           
+        </div>
+
+        <div class=" col-12 col-md-6 border border-start border-info border-bottom-0 border-top-0 border-end-0 border-3">
+            <div class="mt-4 ">
+                <h2>Lista de Devedores</h2>
+                <span class="" id="saida"></span>
+            </div>
+        </div>
+    </div>
+    <div class=""></div>
+   
+
+</section>
+    
+</body>
+
+</html>
+<script src="./script.js/cliente.js"></script>
+<script src="./script.js/controlerlista.js"></script>
+<script src="./script.js/listadivida.js"></script>
